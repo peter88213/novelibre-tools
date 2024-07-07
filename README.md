@@ -4,7 +4,7 @@ OpenOffice/LibreOffice extension with tools for post-processing documents export
 [novelibre](https://github.com/peter88213/novelibre).
 
 
-This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffice:
+This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffice *Writer*:
 
 ![Screenshot](docs/Screenshots/format_menu01.png)
 
