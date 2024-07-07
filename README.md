@@ -2,6 +2,9 @@
 
 OpenOffice/LibreOffice extension with tools for post-processing documents exported from novelibre.
 
+![Screenshot](docs/Screenshots/format_menu01.png)
+
+
 This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffice:
 
 ### Format > Replace scene dividers with blank lines
