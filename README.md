@@ -1,6 +1,8 @@
 # novelibre-tools
 
-OpenOffice/LibreOffice extension with tools for post-processing documents exported from novelibre.
+OpenOffice/LibreOffice extension with tools for post-processing documents exported from 
+[novelibre](https://github.com/peter88213/novelibre).
+
 
 ![Screenshot](docs/Screenshots/format_menu01.png)
 
