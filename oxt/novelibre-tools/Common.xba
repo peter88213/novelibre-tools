@@ -9,9 +9,9 @@
 
 sub to_blank_lines
 &apos; ----------------------------------------------------------------------
-&apos; Replace scene dividers with blank lines
+&apos; Replace section dividers with blank lines
 &apos; 
-&apos; Replace the three-lines &quot;* * *&quot; scene dividers with a single blank line. 
+&apos; Replace the three-lines &quot;* * *&quot; section dividers with a single blank line. 
 &apos; Change the style of the scene-dividing paragraphs
 &apos; from Heading 4 to Heading 5.
 &apos; ----------------------------------------------------------------------
@@ -113,7 +113,7 @@ args2(18).Name = &quot;Quiet&quot;
 args2(18).Value = true
 dispatcher.executeDispatch(document, &quot;.uno:ExecuteSearch&quot;, &quot;&quot;, 0, args2())
 
-&apos; Delete scene dividers.
+&apos; Delete section dividers.
 dim args3(18) as new com.sun.star.beans.PropertyValue
 args3(0).Name = &quot;SearchItem.StyleFamily&quot;
 args3(0).Value = 2

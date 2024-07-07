@@ -4,20 +4,19 @@ OpenOffice/LibreOffice extension with tools for post-processing documents export
 [novelibre](https://github.com/peter88213/novelibre).
 
 
+This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffice
+
 ![Screenshot](docs/Screenshots/format_menu01.png)
 
+### Format > Replace section dividers with blank lines
 
-This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffice:
-
-### Format > Replace scene dividers with blank lines
-
-This will replace the three-line "* * *" scene dividers
+This will replace the three-line "* * *" section dividers
 with single blank lines. The style of the scene-dividing
 lines will be changed from  _Heading 4_  to  _Heading 5_.
 
 ## Download and install
 
-[Download link](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.1.3.oxt)
+[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.1.3.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 
