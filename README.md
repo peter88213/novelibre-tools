@@ -16,7 +16,7 @@ lines will be changed from  _Heading 4_  to  _Heading 5_.
 
 ## Download and install
 
-[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.1.3.oxt)
+[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.1.4.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 
