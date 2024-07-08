@@ -8,6 +8,11 @@ This extension adds a menu entry to the **Format** menu of OpenOffice/LibreOffic
 
 ![Screenshot](docs/Screenshots/format_menu01.png)
 
+There is also a translation into German:
+
+![Screenshot](docs/Screenshots/format_menu02.png)
+
+
 ### Format > Replace section dividers with blank lines
 
 This will replace the three-line "* * *" section dividers
