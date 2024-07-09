@@ -4,8 +4,8 @@
 
 &apos; novelibre-tools - OpenOffice macro module for formatting novelibre export
 &apos;
-&apos; Copyright (c) 2024 Peter Triesbergernovelibre-tools
-&apos; License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+&apos; Copyright (c) 2024 Peter Triesberger
+&apos; Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 
 sub to_blank_lines
 &apos; ----------------------------------------------------------------------
@@ -167,5 +167,35 @@ oViewCursor.gotoRange(oSaveCursor,False)
 
 end sub
 
+sub insert_section_divider
+&apos; ----------------------------------------------------------------------
+&apos; Replace section dividers with blank lines
+&apos; 
+&apos; Replace the three-lines &quot;* * *&quot; section dividers with a single blank line. 
+&apos; Change the style of the scene-dividing paragraphs
+&apos; from Heading 4 to Heading 5.
+&apos; ----------------------------------------------------------------------
+dim pStyles
+dim document   as object
+dim dispatcher as object
 
+pStyles = ThisComponent.StyleFamilies.getByName(&quot;ParagraphStyles&quot;)
+document   = ThisComponent.CurrentController.Frame
+dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
+
+&apos; Insert the three-star section divider. 
+dim args1(0) as new com.sun.star.beans.PropertyValue
+args1(0).Name = &quot;Text&quot;
+args1(0).Value = &quot;* * *&quot;
+dispatcher.executeDispatch(document, &quot;.uno:InsertText&quot;, &quot;&quot;, 0, args1())
+
+&apos; Apply the &quot;Heading 4&quot; paragraph style.
+dim args2(1) as new com.sun.star.beans.PropertyValue
+args2(0).Name = &quot;Template&quot;
+args2(0).Value = pStyles.getByName(&quot;Heading 4&quot;).DisplayName
+args2(1).Name = &quot;Family&quot;
+args2(1).Value = 2
+dispatcher.executeDispatch(document, &quot;.uno:StyleApply&quot;, &quot;&quot;, 0, args2())
+
+end sub
 </script:module>
