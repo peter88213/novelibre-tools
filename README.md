@@ -6,6 +6,16 @@ OpenOffice/LibreOffice extension with tools for processing text documents in con
 
 This extension adds menu entries to the **Format** and **Insert** menus of OpenOffice/LibreOffice *Writer*.
 
+- The macro associated with the "Format" menu entry helps to change the look of your final document.
+- The macro associated with the "Insert" menu entry is useful for setting up a "work in progress" 
+  written with *Writer* to create a new *novelibre* project.
+
+
+**Note:** The macros coming with this extension are meant to be used with text documents 
+in connection with the novelibre writing program, where the paragraph styles 
+"Heading 4" and "Heading 5" are reserved for section dividers.
+The use of the macros with other text documents may have undesirable side effects.
+
 ---
 
 ## Command reference
@@ -19,19 +29,16 @@ This extension adds menu entries to the **Format** and **Insert** menus of OpenO
 This will replace the three-line "* * *" section dividers
 with single blank lines. The style of the scene-dividing
 lines will be changed from  _Heading 4_  to  _Heading 5_.
-This helps to change the look of your final document.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
 
-### Insert > * * * Section divider
+### Insert > \* \* \* Section divider
 
 ![Screenshot](docs/Screenshots/insert_menu01.png)
 
-This will insert a "* * *" section divider, and 
+This will insert a "\* \* \*" section divider, and 
 apply the _Heading 4_ paragraph style. 
-This is useful for setting up a "work in progress" written with 
-*Writer* to create a new *novelibre* project.
 
 **Note:** Before calling this command, 
 make sure the cursor is on a blank line.
