@@ -1,6 +1,6 @@
 # novelibre-tools
 
-OpenOffice/LibreOffice extension with tools for post-processing documents exported from 
+OpenOffice/LibreOffice extension with tools for processing text documents in connection with 
 [novelibre](https://github.com/peter88213/novelibre).
 
 
@@ -13,6 +13,7 @@ This extension adds menu entries to the **Format** and **Insert** menus of OpenO
 
 ### Format > Replace section dividers with blank lines
 
+
 ![Screenshot](docs/Screenshots/format_menu01.png)
 
 This will replace the three-line "* * *" section dividers
@@ -21,6 +22,7 @@ lines will be changed from  _Heading 4_  to  _Heading 5_.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
+This helps to change the look of your final document.
 
 ### Insert > * * * Section divider
 
@@ -31,6 +33,9 @@ apply the _Heading 4_ paragraph style.
 
 Before calling this command, 
 make sure the cursor is on a blank line.
+
+This is useful for setting up a "work in progress" written with 
+*Writer* to create a new *novelibre* project.
 
 ---
 
