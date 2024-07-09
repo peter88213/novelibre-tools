@@ -19,10 +19,10 @@ This extension adds menu entries to the **Format** and **Insert** menus of OpenO
 This will replace the three-line "* * *" section dividers
 with single blank lines. The style of the scene-dividing
 lines will be changed from  _Heading 4_  to  _Heading 5_.
+This helps to change the look of your final document.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
-This helps to change the look of your final document.
 
 ### Insert > * * * Section divider
 
@@ -30,12 +30,12 @@ This helps to change the look of your final document.
 
 This will insert a "* * *" section divider, and 
 apply the _Heading 4_ paragraph style. 
-
-Before calling this command, 
-make sure the cursor is on a blank line.
-
 This is useful for setting up a "work in progress" written with 
 *Writer* to create a new *novelibre* project.
+
+**Note:** Before calling this command, 
+make sure the cursor is on a blank line.
+
 
 ---
 
