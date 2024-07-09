@@ -19,6 +19,9 @@ This will replace the three-line "* * *" section dividers
 with single blank lines. The style of the scene-dividing
 lines will be changed from  _Heading 4_  to  _Heading 5_.
 
+![Screenshot](docs/Screenshots/section_divider01.jpg)
+
+
 ## Download and install
 
 [Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.1.4.oxt)
