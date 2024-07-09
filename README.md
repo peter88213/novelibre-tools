@@ -14,6 +14,11 @@ There is also a translation into German:
 
 ![Screenshot](docs/Screenshots/format_menu02.png)
 
+---
+
+## Command reference
+
+---
 
 ### Format > Replace section dividers with blank lines
 
@@ -23,6 +28,7 @@ lines will be changed from  _Heading 4_  to  _Heading 5_.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
+---
 
 ### Insert > * * * Section divider
 
@@ -32,7 +38,7 @@ apply the _Heading 4_ paragraph style.
 Before calling this command, 
 make sure the cursor is on a blank line.
 
-
+---
 
 ## Download and install
 
