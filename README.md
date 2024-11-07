@@ -28,7 +28,7 @@ The use of the macros with other text documents may have undesirable side effect
 
 This will replace the three-line "* * *" section dividers
 with single blank lines. The style of the scene-dividing
-lines will be changed from  _Heading 4_  to  _Heading 5_.
+lines will be changed from  _Heading 4_  to  _Text body indent_.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
@@ -48,7 +48,7 @@ make sure the cursor is on a blank line.
 
 ## Download and install
 
-[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.2.0.oxt)
+[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.3.0.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 

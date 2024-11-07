@@ -13,7 +13,7 @@ sub to_blank_lines
 &apos; 
 &apos; Replace the three-lines &quot;* * *&quot; section dividers with a single blank line. 
 &apos; Change the style of the scene-dividing paragraphs
-&apos; from Heading 4 to Heading 5.
+&apos; from Heading 4 to Text body indent.
 &apos; ----------------------------------------------------------------------
 dim pStyles
 dim document   as object
@@ -29,7 +29,7 @@ dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 oViewCursor = ThisComponent.CurrentController().getViewCursor()
 oSaveCursor = ThisComponent.Text.createTextCursorByRange(oViewCursor)
 
-&apos; Replace &quot;Heading 4&quot; by &quot;Heading 5&quot;.
+&apos; Replace &quot;Heading 4&quot; by &quot;Text body indent&quot;.
 dim args1(18) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;SearchItem.StyleFamily&quot;
 args1(0).Value = 2
@@ -54,7 +54,7 @@ args1(9).Value = 65536
 args1(10).Name = &quot;SearchItem.SearchString&quot;
 args1(10).Value = pStyles.getByName(&quot;Heading 4&quot;).DisplayName
 args1(11).Name = &quot;SearchItem.ReplaceString&quot;
-args1(11).Value = pStyles.getByName(&quot;Heading 5&quot;).DisplayName
+args1(11).Value = pStyles.getByName(&quot;Text body indent&quot;).DisplayName
 args1(12).Name = &quot;SearchItem.Locale&quot;
 args1(12).Value = 255
 args1(13).Name = &quot;SearchItem.ChangedChars&quot;
@@ -71,7 +71,7 @@ args1(18).Name = &quot;Quiet&quot;
 args1(18).Value = true
 dispatcher.executeDispatch(document, &quot;.uno:ExecuteSearch&quot;, &quot;&quot;, 0, args1())
 
-&apos; Find all &quot;Heading 5&quot;.
+&apos; Find all &quot;Text body indent&quot;.
 dim args2(18) as new com.sun.star.beans.PropertyValue
 args2(0).Name = &quot;SearchItem.StyleFamily&quot;
 args2(0).Value = 2
@@ -94,9 +94,9 @@ args2(8).Value = 0
 args2(9).Name = &quot;SearchItem.SearchFlags&quot;
 args2(9).Value = 65536
 args2(10).Name = &quot;SearchItem.SearchString&quot;
-args2(10).Value = pStyles.getByName(&quot;Heading 5&quot;).DisplayName
+args2(10).Value = pStyles.getByName(&quot;Text body indent&quot;).DisplayName
 args2(11).Name = &quot;SearchItem.ReplaceString&quot;
-args2(11).Value = pStyles.getByName(&quot;Heading 5&quot;).DisplayName
+args2(11).Value = pStyles.getByName(&quot;Text body indent&quot;).DisplayName
 args2(12).Name = &quot;SearchItem.Locale&quot;
 args2(12).Value = 255
 args2(13).Name = &quot;SearchItem.ChangedChars&quot;
@@ -173,7 +173,7 @@ sub insert_section_divider
 &apos; 
 &apos; Replace the three-lines &quot;* * *&quot; section dividers with a single blank line. 
 &apos; Change the style of the scene-dividing paragraphs
-&apos; from Heading 4 to Heading 5.
+&apos; from Heading 4 to Text body indent.
 &apos; ----------------------------------------------------------------------
 dim pStyles
 dim document   as object
