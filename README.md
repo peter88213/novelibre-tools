@@ -57,6 +57,12 @@ Optional command: **Tools > Add-Ons > novelibre-tools > \* \* \* Insert section 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 
 
+## Get updates
+
+This extension supports the update mechanism of OpenOffice/LibreOffice. You can let the Extension Manager check for updates from time to time to get the latest release.
+
+---
+
 ## Credits
 
 - [OpenOffice Extension Compiler](https://wiki.openoffice.org/wiki/Extensions_Packager#Extension_Compiler) by Bernard Marcelly.
