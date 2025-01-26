@@ -12,7 +12,7 @@ This extension adds menu entries to the **Format** and **Insert** menus of OpenO
 
 
 **Note:** The macros coming with this extension are meant to be used with text documents 
-in connection with the novelibre writing program, where the paragraph style 
+in connection with the novelibre application, where the paragraph style 
 "Heading 4" is reserved for section dividers.
 The use of the macros with other text documents may have undesirable side effects.
 
