@@ -32,6 +32,8 @@ lines will be changed from  _Heading 4_  to  _Text body indent_.
 
 ![Screenshot](docs/Screenshots/section_divider01.jpg)
 
+Optional command: **Tools > Add-Ons > novelibre-tools > Replace section dividers with blank lines**
+
 
 ### Insert > \* \* \* Section divider
 
@@ -44,11 +46,13 @@ apply the _Heading 4_ paragraph style.
 make sure the cursor is on a blank line.
 
 
+Optional command: **Tools > Add-Ons > novelibre-tools > \* \* \* Insert section divider**
+
 ---
 
 ## Download and install
 
-[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.3.0.oxt)
+[Download extension](https://raw.githubusercontent.com/peter88213/novelibre-tools/main/dist/novelibre-tools-0.4.0.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
 
